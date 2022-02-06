@@ -62,8 +62,11 @@ public class CardTrick {
         String response = match ? "Right guess": "No match";
         
         System.out.println(response);
+        printinfo();
     }
-    
+    public static void printinfo(){
+    System.out.print("hello...my name is harmilan kaur");
+    }
 }
 
 
